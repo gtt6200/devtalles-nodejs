@@ -20,7 +20,7 @@ npm run dev:watch
 npm run build
 ```
 5.-  Start project 
-###### This command build and start the project
+This command build and start the project
 ```
 npm run start
 ```
