@@ -4,26 +4,3 @@
 <img src="https://img.shields.io/badge/SH SCRIPTS-black?style=for-the-badge&logo=GNU Bash&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=1572B6"/>
 <img src="https://img.shields.io/badge/HTML-black?style=for-the-badge&logo=HTML5&logoColor=E34F26"/>
-
-# Node TS multiplication app
-1.-  Install deps
-```
-npm install 
-```
-2.- Run dev app
-```
-npm run dev
-```
-3.- Run dev and watch app with nodemon
-```
-npm run dev:watch
-```
-4.-  Genearted dist folder
-```
-npm run build
-```
-5.-  Start project
-### This command build and start the project
-```
-npm run start
-```
