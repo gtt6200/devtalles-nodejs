@@ -28,7 +28,7 @@ export class SaveFile implements SaveFileUseCase {
             return true;
         } catch (error) {
             console.error(error);
-            throw new Error ('Unexpected error an occurred');
+            throw new Error('Unexpected error an occurred');
         }
     };
 }
