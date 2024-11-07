@@ -27,8 +27,9 @@ export class SaveFile implements SaveFileUseCase {
             fs.writeFileSync(`${fileDestination}/${fileName}.txt`, fileContent);
             return true;
         } catch (error) {
-            console.error(error);
-            throw new Error('Unexpected error an occurred');
+           // console.error(error); winston
+            //throw new Error('Unexpected error an occurred');
+            return false;
         }
     };
 }

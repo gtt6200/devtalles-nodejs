@@ -2,7 +2,7 @@ import yargs, { boolean } from "yargs";
 import { hideBin } from 'yargs/helpers';
 
 
-export const yarg = yargs(process.argv)
+export const yarg = yargs(hideBin(process.argv))
     .option('b', {
         alias: 'base',
         type: 'number',
