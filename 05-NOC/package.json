@@ -12,7 +12,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "05-noc": "file:"
+    "05-noc": "file:",
+    "cron": "^3.1.9"
   },
   "devDependencies": {
     "@types/node": "^22.9.0",

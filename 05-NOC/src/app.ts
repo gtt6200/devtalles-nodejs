@@ -1,5 +1,10 @@
+import { Server } from "./presentation/server";
+
+(async()=>{
+    main();
+})();
 
 
-const username: string = "alxy";
-
-console.log(`Hello ${username}`);
+function main(){
+    Server.start();
+}
