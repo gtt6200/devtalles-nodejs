@@ -1,0 +1,38 @@
+{
+    "posts": [
+        { "id": 1, "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit", "author": "Leanne Graham" },
+        { "id": 2, "title": "qui est esse", "author": "Ervin Howell" },
+        { "id": 3, "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut", "author": "Clementine Bauch" },
+        { "id": 4, "title": "eum et est occaecati", "author": "Patricia Lebsack" },
+        { "id": 5, "title": "nesciunt quas odio", "author": "Chelsey Dietrich" },
+        { "id": 6, "title": "dolorem eum magni eos quia ipsum odit quo", "author": "Dennis Schulist" },
+        { "id": 7, "title": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto", "author": "Kurtis Weissnat" },
+        { "id": 8, "title": "ut aspernatur corporis harum nihil quis provident sequi", "author": "Nicholas Runolfsdottir V" },
+        { "id": 9, "title": "aspernatur illo est incidunt amet doloremque", "author": "Glenna Reichert" },
+        { "id": 10, "title": "quo provident consequatur illo ratione", "author": "Clementina DuBuque" }
+    ],
+    "comments": [
+        { "id": 1, "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla", "postId": 1 },
+        { "id": 2, "body": "et iusto sed quo iure\nvoluptatem molestiae omnis eveniet magni\net omnis consequatur", "postId": 1 },
+        { "id": 3, "body": "a quo magni similique perferendis\nnam nostrum sequi consequatur rerum quia", "postId": 2 },
+        { "id": 4, "body": "ullam ut quidem ullam sequi eius\nillum quaerat porro similique perspiciatis\nearum rerum", "postId": 3 },
+        { "id": 5, "body": "non et atque\noccaecati des", "postId": 4 },
+        { "id": 6, "body": "asperiores ea ipsum voluptas\nquasi\nvoluptatibus beatae", "postId": 5 },
+        { "id": 7, "body": "sed quia consequatur\nmagni dolores eos\nqui ratione voluptatem quisquam doloremque", "postId": 6 },
+        { "id": 8, "body": "maiores sed dolores similique labore et inventore et\ncommodi praesentium voluptas", "postId": 7 },
+        { "id": 9, "body": "fugit labore quidem mollitia\nenim voluptate qui\nomnis facilis consequatur rem", "postId": 8 },
+        { "id": 10, "body": "rerum ut et voluptatem\nsequi est odio excepturi\nsapiente qui voluptate", "postId": 9 }
+    ],
+    "profiles": [
+        { "name": "Leanne Graham" },
+        { "name": "Ervin Howell" },
+        { "name": "Clementine Bauch" },
+        { "name": "Patricia Lebsack" },
+        { "name": "Chelsey Dietrich" },
+        { "name": "Dennis Schulist" },
+        { "name": "Kurtis Weissnat" },
+        { "name": "Nicholas Runolfsdottir V" },
+        { "name": "Glenna Reichert" },
+        { "name": "Clementina DuBuque" }
+    ]
+}
