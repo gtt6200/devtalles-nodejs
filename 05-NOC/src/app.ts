@@ -11,5 +11,5 @@ function main() {
     const { PORT: port, PROD: isProd, MAILER_EMAIL: email, MAILER_SECRET_KEY: pass } = envs;
     console.log(envs);
     console.log(`us envs ${port}, ${isProd}, ${email}, ${pass}`);
-    //Server.start();
+    Server.start();
 }
