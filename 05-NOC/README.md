@@ -12,3 +12,6 @@ MAILER_SECRET_KEY=
 
 PROD=falase
 ```
+
+3. Instalar las deps ```npm install```
+4. Scripts del programa ```npm run dev``` para modo desarrollo y monitoreo, ```npm run build``` para compilar todo a js y creará la carpeta de distribución ```./dist```, ```npm run start``` compilara el programa a JavaScript e iniciará el proyecto.
