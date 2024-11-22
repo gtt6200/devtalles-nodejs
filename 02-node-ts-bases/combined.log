@@ -1,0 +1,11 @@
+{"level":"info","message":"Hola mundo","service":"app.js","timestamp":"2024-10-29T19:21:50.174Z"}
+{"level":"error","message":"error Esto es algo malo","service":"app.js","timestamp":"2024-10-29T19:21:50.179Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-11-01T20:47:17.729Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-11-01T20:47:22.742Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-11-01T20:47:41.061Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-11-01T20:48:07.309Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-11-01T20:48:24.445Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-11-01T20:48:58.073Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-11-01T20:49:28.033Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-11-01T20:51:07.533Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-11-02T17:50:03.898Z"}
