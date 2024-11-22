@@ -1,0 +1,25 @@
+{
+  "name": "03-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/app.js"
+  },
+  "keywords": [],
+  "author": "gtt6200",
+  "license": "ISC",
+  "dependencies": {
+    "03-ts": "file:"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "nodemon": "^3.1.7",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
