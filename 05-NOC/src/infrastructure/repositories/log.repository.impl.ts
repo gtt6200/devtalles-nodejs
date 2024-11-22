@@ -4,7 +4,7 @@ import { LogRepository } from "../../domain/repository/log.repository";
 
 
 
-export class logRepository implements LogRepository {
+export class LogRepositoryImpl implements LogRepository {
 
     constructor(private readonly dataSource: LogDataSource) { }
 

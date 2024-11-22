@@ -3,15 +3,28 @@ El objetivo es crear una serie de tareas usnado Arquitectura limpia y demás pat
 
 ## dev
 1. Clonar el archivo env.template a .env
-2. Configurar las varialbels de entorno 
+2. Configurar las variables de entorno 
 
 ```
 PORT=3000
+
+MAILER_SERVICE=
 MAILER_EMAIL=
 MAILER_SECRET_KEY=
 
-PROD=falase
+PROD=
+
+MONGO_URL=
+MONGO_DB_NAME=
+MONGO_USER=
+MONGO_PASS=
+
+
 ```
 
 3. Instalar las deps ```npm install```
-4. Scripts del programa ```npm run dev``` para modo desarrollo y monitoreo, ```npm run build``` para compilar todo a js y creará la carpeta de distribución ```./dist```, ```npm run start``` compilara el programa a JavaScript e iniciará el proyecto.
+4. Levantar las bases de datos con el comando
+    ```
+    docker compose up -d
+    ```
+5. Scripts del programa ```npm run dev``` para modo desarrollo y monitoreo, ```npm run build``` para compilar todo a js y creará la carpeta de distribución ```./dist```, ```npm run start``` compilara el programa a JavaScript e iniciará el proyecto.
