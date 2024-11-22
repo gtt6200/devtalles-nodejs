@@ -1,5 +1,8 @@
 **/node_modules/
 **/dist/
 **/.env
+**/logs/
+**/mongo-data/
+**/postgres-data
 
 **/coverage
