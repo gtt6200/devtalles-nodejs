@@ -19,6 +19,11 @@ MONGO_DB_NAME=
 MONGO_USER=
 MONGO_PASS=
 
+POSTGRES_URL=
+POSTGRES_USER=
+POSTGRES_DB=
+POSTGRES_PASSWORD=
+
 
 ```
 
@@ -27,4 +32,6 @@ MONGO_PASS=
     ```
     docker compose up -d
     ```
-5. Scripts del programa ```npm run dev``` para modo desarrollo y monitoreo, ```npm run build``` para compilar todo a js y creará la carpeta de distribución ```./dist```, ```npm run start``` compilara el programa a JavaScript e iniciará el proyecto.
+5. Ejecutar el comando ``` npx prisma migrate dev ``` para establecer la base de datos de postgreSQL
+
+6. Scripts del programa ```npm run dev``` para modo desarrollo y monitoreo, ```npm run build``` para compilar todo a js y creará la carpeta de distribución ```./dist```, ```npm run start``` compilara el programa a JavaScript e iniciará el proyecto.
